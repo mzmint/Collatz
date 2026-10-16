@@ -1,8 +1,8 @@
 #import <iostream>
-#include "MintLibMath.h"
+#include "MintLib.h"
 
 int main() {
-    int n;
+    long long n;
     std::cout << "Choose a number" << std::endl;
     std::cin >> n;
     Mint::collatz(n);
