@@ -5,7 +5,7 @@ int main() {
     long long n;
     std::cout << "Choose a number" << std::endl;
     std::cin >> n;
-    Mint::collatz(n);
+    Mint::collatzFull(n);
 
     return 0;
 }

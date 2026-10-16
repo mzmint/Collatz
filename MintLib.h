@@ -2,7 +2,8 @@
 #define COLLATZ_MINTLIBMATH_H
 
 namespace Mint {
-    void collatz(int n);
+    void collatz(long long n);
+    void collatzFull(long long n);
     bool isPrime(int n);
     int mobius(int n);
 }
